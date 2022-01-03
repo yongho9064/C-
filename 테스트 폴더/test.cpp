@@ -1,10 +1,11 @@
 #include <iostream>
-#include <stdio.h>
+#include <cstring>
 int main(){
     using namespace std;
-    int arr[3] = {1, 2, 3};
+    const char* arr[] = {"banana apple", "array", "Hello world", "sizeof", "javascript"};
 
-    int (*pf)[3] = &arr;
+    const char* ptr = arr[0];
+    ptr = arr[1];
 
-    printf("%p \t %p", &arr[1], &(*pf)[1]);
+    cout << ptr << endl;
 }
