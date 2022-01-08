@@ -3,12 +3,12 @@ double function(double);
 int main(){
     using namespace std;
 
-    cout << "±¤³â ¼ö¸¦ ÀÔ·ÂÇÏ°í Enter Å°¸¦ ´©¸£½Ê½Ã¿À:";
+    cout << "ê´‘ë…„ ìˆ˜ë¥¼ ìž…ë ¥í•˜ê³  Enter í‚¤ë¥¼ ëˆ„ë¥´ì‹­ì‹œì˜¤:";
     double num = 0.0;
     cin >> num;
 
     double x = function(num);
-    cout << num << " ±¤³âÀº " << x << "Ãµ¹® ´ÜÀ§ÀÔ´Ï´Ù."; 
+    cout << num << " ê´‘ë…„ì€ " << x << "ì²œë¬¸ ë‹¨ìœ„ìž…ë‹ˆë‹¤."; 
 }
 double function(double n){
     return n * 63240;

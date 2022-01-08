@@ -1,11 +1,3 @@
-#include <iostream>
-#include <cstring>
-int main(){
-    using namespace std;
-    const char* arr[] = {"banana apple", "array", "Hello world", "sizeof", "javascript"};
+char arr[10];
 
-    const char* ptr = arr[0];
-    ptr = arr[1];
-
-    cout << ptr << endl;
-}
+int* p1 = new (arr) int;

@@ -1,11 +1,11 @@
-/* °Å¸®¿¡ ´ëÇØ ¸¶ÀÏ ´ÜÀ§·Î ÀÔ·ÂÀ» ¿ä±¸ÇÏ°í, ±×°ÍÀ» Å³·Î¹ÌÅÍ ´ÜÀ§·Î 
-    È¯»êÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À */
+/* ê±°ë¦¬ì— ëŒ€í•´ ë§ˆì¼ ë‹¨ìœ„ë¡œ ìž…ë ¥ì„ ìš”êµ¬í•˜ê³ , ê·¸ê²ƒì„ í‚¬ë¡œë¯¸í„° ë‹¨ìœ„ë¡œ 
+    í™˜ì‚°í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤ */
 
 #include <iostream>
 int main(){
     using namespace std;
 
-    cout << "¸¶ÀÏ:";
+    cout << "ë§ˆì¼:";
     int i = 0;
     cin >> i;
 

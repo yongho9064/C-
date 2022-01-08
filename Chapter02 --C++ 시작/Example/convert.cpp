@@ -3,11 +3,11 @@ int stonetolb(int);
 int main(){
     using namespace std;
     int stone;
-    cout << "Ã¼ÁßÀ» ½ºÅæ ´ÜÀ§·Î ÀÔ·ÂÇÏ½Ã¿À:";
+    cout << "ì²´ì¤‘ì„ ìŠ¤í†¤ ë‹¨ìœ„ë¡œ ìž…ë ¥í•˜ì‹œì˜¤:";
     cin >> stone;
     int pounds = stonetolb(stone);
-    cout << stone << " ½ºÅæÀº ";
-    cout << pounds << " ÆÄ¿îµåÀÔ´Ï´Ù." << endl;
+    cout << stone << " ìŠ¤í†¤ì€ ";
+    cout << pounds << " íŒŒìš´ë“œìž…ë‹ˆë‹¤." << endl;
 }
 
 int stonetolb(int sts){

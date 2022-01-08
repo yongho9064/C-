@@ -1,15 +1,15 @@
 #include <iostream>
-#include <cmath>                        // cmath Çì´õÆÄÀÏ Æ÷ÇÔ½ÃÄÑ ÇÔ¼ö ¿øÇüÀ» Á¦°ø
+#include <cmath>                        // cmath í—¤ë”íŒŒì¼ í¬í•¨ì‹œì¼œ í•¨ìˆ˜ ì›í˜•ì„ ì œê³µ
 int main(){
     using namespace std;
 
     double area;
-    cout << "¸¶·ç ¸éÀûÀ» Æò¹æÇÇÆ® ´ÜÀ§·Î ÀÔ·ÂÇÏ½Ã¿À:";
+    cout << "ë§ˆë£¨ ë©´ì ì„ í‰ë°©í”¼íŠ¸ ë‹¨ìœ„ë¡œ ì…ë ¥í•˜ì‹œì˜¤:";
     cin >> area;
     double side;
-    side = sqrt(area);                // cmath Çì´õ ÆÄÀÏÀÇ ÇÔ¼ö È£Ãâ
-    cout << "»ç°¢Çü ¸¶·ç¶ó¸é ÇÑ º¯ÀÌ " << side
-         << "ÇÇÆ®¿¡ »ó´çÇÕ´Ï´Ù." <<endl;
-    cout << "¸ÚÁö³×¿ä!" << endl;
+    side = sqrt(area);                // cmath í—¤ë” íŒŒì¼ì˜ í•¨ìˆ˜ í˜¸ì¶œ
+    cout << "ì‚¬ê°í˜• ë§ˆë£¨ë¼ë©´ í•œ ë³€ì´ " << side
+         << "í”¼íŠ¸ì— ìƒë‹¹í•©ë‹ˆë‹¤." <<endl;
+    cout << "ë©‹ì§€ë„¤ìš”!" << endl;
     return 0;
 }

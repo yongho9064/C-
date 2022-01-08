@@ -1,17 +1,17 @@
 #include <iostream>
-void simon(int);                // simon()À» À§ÇÑ ÇÔ¼ö ¿øÇü
+void simon(int);                // simon()ì„ ìœ„í•œ í•¨ìˆ˜ ì›í˜•
 
 int main(){
     using namespace std;
-    simon(3);                   // simon() ÇÔ¼ö¸¦ È£ÃâÇÑ´Ù
-    cout << "Á¤¼ö¸¦ ÇÏ³ª °í¸£½Ã¿À: ";
+    simon(3);                   // simon() í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•œë‹¤
+    cout << "ì •ìˆ˜ë¥¼ í•˜ë‚˜ ê³ ë¥´ì‹œì˜¤: ";
     int count;
     cin >> count;
-    simon(count);               // simon() ÇÔ¼ö¸¦ ´Ù½Ã È£ÃâÇÑ´Ù
-    cout << "³¡!" << endl;
+    simon(count);               // simon() í•¨ìˆ˜ë¥¼ ë‹¤ì‹œ í˜¸ì¶œí•œë‹¤
+    cout << "ë!" << endl;
     return 0;
 }
 void simon(int n){
     using namespace std;
-    cout << "Simon ¿Ğ, ¹ß°¡¶ôÀ» " << n << "¹ø µÎµå·Á¶ó." << endl;
-}                               // voidÇü ÇÔ¼ö¿¡´Â return ±¸¹®ÀÌ ÇÊ¿ä ¾ø´Ù
+    cout << "Simon ì™ˆ, ë°œê°€ë½ì„ " << n << "ë²ˆ ë‘ë“œë ¤ë¼." << endl;
+}                               // voidí˜• í•¨ìˆ˜ì—ëŠ” return êµ¬ë¬¸ì´ í•„ìš” ì—†ë‹¤

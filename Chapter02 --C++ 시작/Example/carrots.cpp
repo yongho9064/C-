@@ -1,5 +1,5 @@
-// carrots.cpp -- À½½Ä¹° Ã³¸® ÇÁ·Î±×·¥
-// ÇÏ³ªÀÇ º¯¼ö¸¦ »ç¿ëÇÏ°í Ãâ·ÂÇÑ´Ù
+// carrots.cpp -- ìŒì‹ë¬¼ ì²˜ë¦¬ í”„ë¡œê·¸ë¨
+// í•˜ë‚˜ì˜ ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•˜ê³  ì¶œë ¥í•œë‹¤
 
 #include <iostream>
 int main(){
@@ -8,11 +8,11 @@ int main(){
     int carrots;
 
     carrots = 25;
-    cout << "³ª´Â ´ç±ÙÀ» ";
+    cout << "ë‚˜ëŠ” ë‹¹ê·¼ì„ ";
     cout << carrots;
-    cout << "°³ °¡Áö°í ÀÖ´Ù.";
+    cout << "ê°œ ê°€ì§€ê³  ìˆë‹¤.";
     cout << endl;
     carrots = carrots - 1;
-    cout << "¾Æ»è¾Æ»è, ÀÌÁ¦ ´ç±ÙÀº " << carrots << "°³ÀÌ´Ù." << endl;
+    cout << "ì•„ì‚­ì•„ì‚­, ì´ì œ ë‹¹ê·¼ì€ " << carrots << "ê°œì´ë‹¤." << endl;
     return 0;
 }

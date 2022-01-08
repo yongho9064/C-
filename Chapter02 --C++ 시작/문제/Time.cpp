@@ -3,16 +3,16 @@ void time(int,int);
 int main(){
     using namespace std;
     
-    cout << "½Ã°£ °ªÀ» ÀÔ·ÂÇÏ½Ã¿À:";
+    cout << "ì‹œê°„ ê°’ì„ ìž…ë ¥í•˜ì‹œì˜¤:";
     int h = 0;
     cin >> h;
     
-    cout << "ºÐ °ªÀ» ÀÔ·ÂÇÏ½Ã¿À:";
+    cout << "ë¶„ ê°’ì„ ìž…ë ¥í•˜ì‹œì˜¤:";
     int m = 0;
     cin >> m;
 
     time(h,m);
 }
 void time(int h,int m){
-    std::cout << "½Ã°¢: " << h << ":" << m << std::endl;
+    std::cout << "ì‹œê°: " << h << ":" << m << std::endl;
 }

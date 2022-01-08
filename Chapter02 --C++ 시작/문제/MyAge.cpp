@@ -1,5 +1,5 @@
-/*»ç¿ëÀÚ¿¡°Ô º»ÀÎÀÇ ÀÌ¸§À» ÀÔ·ÂÇÏµµ·Ï ¿ä±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À. ¶ÇÇÑ ±×
-    ÇÁ·Î±×·¥Àº È­¸é¿¡ »ç¿ëÀÚÀÇ ³ªÀÌ¸¦ ¿ù¼ö·Î ³ªÅ¸³»µµ·Ï ÇÕ´Ï´Ù.*/
+/*ì‚¬ìš©ìžì—ê²Œ ë³¸ì¸ì˜ ì´ë¦„ì„ ìž…ë ¥í•˜ë„ë¡ ìš”êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤. ë˜í•œ ê·¸
+    í”„ë¡œê·¸ëž¨ì€ í™”ë©´ì— ì‚¬ìš©ìžì˜ ë‚˜ì´ë¥¼ ì›”ìˆ˜ë¡œ ë‚˜íƒ€ë‚´ë„ë¡ í•©ë‹ˆë‹¤.*/
 #include <iostream>
 int main(){
     using namespace std;
@@ -7,7 +7,7 @@ int main(){
     cout << "Enter your age:";
     int age = 0;
     cin >> age;
-    cout << "´ç½ÅÀÇ ³ªÀÌ¸¦ ¿ù¼ö·Î: " << age * 12 << endl;
+    cout << "ë‹¹ì‹ ì˜ ë‚˜ì´ë¥¼ ì›”ìˆ˜ë¡œ: " << age * 12 << endl;
 
     return 0;
 }

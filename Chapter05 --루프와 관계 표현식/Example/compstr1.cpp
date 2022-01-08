@@ -1,6 +1,6 @@
-// ¹è¿­À» »ç¿ëÇÏ¿© ¹®ÀÚ¿­ ºñ±³
+// ï¿½è¿­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ ï¿½ï¿½
 #include <iostream>
-#include <cstring>              // strcmp() ÇÔ¼öÀÇ ¿øÇü
+#include <cstring>              // strcmp() ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 int main(){
     using namespace std;
     char word[5] = "?ate";
@@ -9,6 +9,6 @@ int main(){
         cout << word << endl;
         word[0] = ch;
     }
-    cout << "·çÇÁ°¡ ³¡³­ ÈÄ¿¡ ´Ü¾î´Â " << word << "ÀÔ´Ï´Ù.\n";
+    cout << "ì•ˆë…•í•˜ì„¸ìš” " << word << "ï¿½Ô´Ï´ï¿½.\n";
     return 0;
 }

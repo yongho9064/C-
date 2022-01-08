@@ -4,11 +4,11 @@ int main(){
     using namespace std;
     int celsius = 0;
 
-    cout << "¼·¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ°í Enter Å°¸¦ ´©¸£½Ê½Ã¿À:";
+    cout << "ì„­ì”¨ ì˜¨ë„ë¥¼ ì…ë ¥í•˜ê³  Enter í‚¤ë¥¼ ëˆ„ë¥´ì‹­ì‹œì˜¤:";
     cin >> celsius;
 
     int i = fahrenheit(celsius);
-    cout << "¼·¾¾ " << celsius <<"µµ´Â È­¾¾·Î " << i << "µµÀÔ´Ï´Ù.";
+    cout << "ì„­ì”¨ " << celsius <<"ë„ëŠ” í™”ì”¨ë¡œ " << i << "ë„ì…ë‹ˆë‹¤.";
 
     return 0;
 }
