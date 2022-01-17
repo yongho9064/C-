@@ -1,3 +1,13 @@
-char arr[10];
+#include <iostream>
 
-int* p1 = new (arr) int;
+using namespace std;
+int mmm(){
+    cout << "sss" << endl;
+}
+int main(){
+    int (*pf)() = mmm;
+
+    pf();
+
+    return 0;
+}

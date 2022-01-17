@@ -11,6 +11,6 @@ int main(){
 
     setSales(s);
     showSales(s);
-
+    
     return 0;
 }
